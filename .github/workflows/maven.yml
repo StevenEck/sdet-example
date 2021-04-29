@@ -22,7 +22,7 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B -ntp -U verify
+      run: mvn -ntp -U verify
       # -B Run in non-interactive (batch) mode (disables output color)
       # -ntp Do not display transfer progress when downloading or uploading otherwise it floods logs
       # -U Force update and check on dependencies
