@@ -23,6 +23,10 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -ntp -U verify
+    - uses: codecov/codecov-action@v1
+      with:
+      files: target/site/jacoco/jacoco.xml
+
       # -ntp Do not display transfer progress when downloading or uploading otherwise it floods logs
       # -U Force update and check on dependencies
       # More info: https://maven.apache.org/ref/3.6.1/maven-embedder/cli.html
