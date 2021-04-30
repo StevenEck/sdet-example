@@ -1,5 +1,7 @@
 package com.sdet.example.model;
 
+import com.sdet.example.coverage.Generated;
+
 import java.time.Instant;
 
 public class ApiResponse {
@@ -14,10 +16,12 @@ public class ApiResponse {
     }
 
     //setters
+    @Generated
     public void setMessage(){
         this.message = message;
     }
 
+    @Generated
     public void setInstant(){
         this.instant = instant;
     }
