@@ -2,7 +2,10 @@
  SDET-Example
  
  Status:
-![sdet-example](https://github.com/StevenEck/sdet-example/workflows/CI/badge.svg)
+![sdet-example](https://github.com/StevenEck/sdet-example/actions/workflows/maven.yml/badge.svg)
+
+Code coverage:
+
 
 
 Requirements: JDK 11
